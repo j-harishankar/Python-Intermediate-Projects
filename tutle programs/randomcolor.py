@@ -19,4 +19,3 @@ for j in range(200):
     timmy.forward(30)
     timmy.setheading(choice(direction))
 screen.exitonclick()
-
