@@ -24,7 +24,8 @@ origin  https://github.com/harishankar123456/Python-Intermediate-Projects.git (f
 origin  https://github.com/harishankar123456/Python-Intermediate-Projects.git (push)
 
 
-git add .
-
+git add .#to stage all files
+git push
+git commit-m
 
 
