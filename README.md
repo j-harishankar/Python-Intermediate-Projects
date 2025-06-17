@@ -90,13 +90,6 @@ Contributions are welcome! If you would like to add a new project or improve exi
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to your branch: `git push origin feature/YourFeature`
 5. Open a pull request.
-
----
-
-## License
-
-This repository is open source and available under the [MIT License](LICENSE).
-
 ---
 
 ## Acknowledgements
