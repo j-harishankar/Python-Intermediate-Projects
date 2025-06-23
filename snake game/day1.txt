@@ -1,0 +1,81 @@
+DAY 1:
+
+
+current progress:Can move the snake using keystrokes the three seperate segments of the snake is linked.
+so this is day 1 of making the snake game.
+Today i learned about turtle methods and some screen methods also refactoring of the code using classes.
+screen.tracer(0)#switch off the animation
+screen.update()#switch on the animation
+screen.listen()#listen to events
+screen.onkey()#listen to keystroke {"Up",..........}
+
+Tomorrow expecting to finish building the snake game.
+
+learned github commands:
+
+THIS IS FOR SETTING THE GIT HEAT MAP TO GREEN UPON COMMITING:
+git config user.email[Check for user Emails]
+jharivichu27@gmail.com
+if not set up then git config --global user.email"useremail"
+
+THIS IS FOR CHECKING IF THE REPO IS CONNECTED THIS IS TO ENSURE THAT MY PROJECT IS CONNECTED TO GITHUB
+git remote -v
+origin  https://github.com/harishankar123456/Python-Intermediate-Projects.git (fetch)
+origin  https://github.com/harishankar123456/Python-Intermediate-Projects.git (push)
+
+
+git add .#to stage all files
+git push
+git commit-m
+
+DAY 2:
+
+    failed
+
+DAY 3:
+
+today, I learned about inheriting classes in python.
+
+we can inherit the classes using:-
+
+def __init__(self):
+    super.__init__()#this will initialize all the attributes and methods used in the parent class
+suppose child class consist of the method with same name, but it should contain more functionalities in that case:-
+
+def breathe():
+    super.breathe
+    #this will initialize all the functionalities of the  parent method and also
+     we can add extra functionalities to this
+i have also learned that we cant use a attribute of another class directly from another file
+initialize the attribute inside __init__ of subclass.
+
+
+
+git commands learned:
+
+to untrack files or to create a gitignore:
+
+    first step:
+     cache a file that is show it on local folder not on repo
+     for that:--
+    git rm --cached filename.txt
+
+    now to add to gitignore
+
+    echo "Filename.txt" >> .gitignore
+    git add .gitignore
+    git commit
+    git push
+
+    now the file will be available on the local folder and
+    it will available as gitignore in repo
+
+
+    SOMETIMES YOU WANT TO RETRIVE THE FILE THAT HAS BEEN ACCEDENTALY REMOVED USING RM
+     find commit id
+
+     git --all --filename
+
+     you will get a commit id
+
+     git checkout<commit_id> -- filename.
