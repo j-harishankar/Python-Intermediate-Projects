@@ -78,6 +78,21 @@ A classic snake game implemented in Python, often using `turtle` or another grap
 
 ### 7. Tutle Programs
 A collection of programs using Python's `turtle` graphics library for drawing and simple animations.
+# Python Intermediate Projects
+
+A collection of intermediate-level Python projects to practice and showcase various programming concepts.
+
+### 8. CSV-based Game
+A new project where the gameplay or logic is driven by data from CSV files.  
+_Folder: `csv-game/`
+
+### 9. Pandas Basic Project
+A simple project demonstrating foundational data analysis using the pandas library.  
+_Folder: `pandas-basic/` 
+
+### 10. Pandas Project Using Real Data
+A project utilizing real-world datasets and pandas for data wrangling, exploration, and visualization.  
+_Folder: `pandas-real-data/`
 
 ---
 
